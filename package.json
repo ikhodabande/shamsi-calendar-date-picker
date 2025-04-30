@@ -4,18 +4,24 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-      "build": "tsc"
+        "build": "tsc"
     },
     "dependencies": {
-      "dayjs": "^1.11.0",
-      "jalaliday": "^2.3.0",
-      "react": "^18.0.0"
+        "dayjs": "^1.11.13",
+        "jalaliday": "^2.3.0",
+        "react": "^18.3.1",
+        "react-dom": "^19.1.0"
     },
     "devDependencies": {
-      "typescript": "^5.0.0"
+        "typescript": "^5.0.0"
     },
-    "keywords": ["persian", "jalali", "datepicker", "calendar", "react"],
+    "keywords": [
+        "persian",
+        "jalali",
+        "datepicker",
+        "calendar",
+        "react"
+    ],
     "author": "Your Name",
     "license": "MIT"
-  }
-  
+}
