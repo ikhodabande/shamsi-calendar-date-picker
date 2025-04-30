@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+src/**/*.test.ts
+src/**/*.spec.ts
+*.tsbuildinfo
+.vscode/
+.idea/
+.git/

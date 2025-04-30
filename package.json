@@ -1,0 +1,21 @@
+{
+    "name": "shamsi-calendar-date-picker",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc"
+    },
+    "dependencies": {
+      "dayjs": "^1.11.0",
+      "jalaliday": "^2.3.0",
+      "react": "^18.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^5.0.0"
+    },
+    "keywords": ["persian", "jalali", "datepicker", "calendar", "react"],
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  
