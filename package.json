@@ -1,27 +1,53 @@
 {
-    "name": "shamsi-calendar-date-picker",
-    "version": "1.0.0",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-        "build": "tsc"
-    },
-    "dependencies": {
-        "dayjs": "^1.11.13",
-        "jalaliday": "^2.3.0",
-        "react": "^18.3.1",
-        "react-dom": "^19.1.0"
-    },
-    "devDependencies": {
-        "typescript": "^5.0.0"
-    },
-    "keywords": [
-        "persian",
-        "jalali",
-        "datepicker",
-        "calendar",
-        "react"
-    ],
-    "author": "Your Name",
-    "license": "MIT"
+  "name": "shamsi-date-picker",
+  "version": "1.0.0",
+  "description": "A lightweight Jalali (Shamsi) date picker built with React and shadcn/ui",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT",
+  "author": "Amir Mohammad Khodabande",
+  "dependencies": {
+    "@radix-ui/react-checkbox": "^1.3.1",
+    "@radix-ui/react-collapsible": "^1.1.10",
+    "@radix-ui/react-context-menu": "^2.2.14",
+    "@radix-ui/react-dialog": "^1.1.13",
+    "@radix-ui/react-hover-card": "^1.1.13",
+    "@radix-ui/react-label": "^2.1.6",
+    "@radix-ui/react-navigation-menu": "^1.2.12",
+    "@radix-ui/react-popover": "^1.1.13",
+    "@radix-ui/react-progress": "^1.1.6",
+    "@radix-ui/react-radio-group": "^1.3.6",
+    "@radix-ui/react-select": "^2.2.4",
+    "@radix-ui/react-separator": "^1.1.6",
+    "@radix-ui/react-slot": "^1.2.2",
+    "@radix-ui/react-switch": "^1.2.4",
+    "@radix-ui/react-tabs": "^1.1.11",
+    "@radix-ui/react-toast": "^1.2.13",
+    "@radix-ui/react-toggle": "^1.1.8",
+    "@radix-ui/react-tooltip": "^1.2.6",
+    "class-variance-authority": "^0.7.1",
+    "cmdk": "^1.1.1",
+    "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.10.5",
+    "lucide-react": "^0.509.0",
+    "react-date-object": "^2.1.9",
+    "react-day-picker": "^9.6.7",
+    "react-hook-form": "^7.56.3",
+    "react-multi-date-picker": "^4.5.2",
+    "so": "^1.0.1",
+    "vaul": "^1.1.2"
+  }
 }

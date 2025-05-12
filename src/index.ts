@@ -1,3 +1,2 @@
-export { DateRangePicker } from "./components/DateRangePicker"
-export { usePersianDate } from "./hooks/usePersianDate"
-export { formatDate } from "./utils/format"
+
+export { ShamsiDatePicker } from './components/ShamsiDatePicker';
